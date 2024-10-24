@@ -42,6 +42,7 @@ export default function NavIcons() {
           width={22}
           height={22}
           alt=""
+          className="cursor-pointer"
           onClick={() => setIsCartOpen((prev) => !prev)}
         />
         <div className="absolute -top-4 -right-4 w-6 h-6 flex items-center justify-center text-[#fff] text-sm rounded-full bg-themeRed">
